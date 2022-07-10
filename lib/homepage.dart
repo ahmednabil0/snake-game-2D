@@ -39,6 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
         x1 = false;
         x2 = false;
         x3 = false;
+        x4 = false;
       }
     });
   }
@@ -336,7 +337,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         });
                       },
                       child: Text(
-                        'End the Game and',
+                        'End the Game',
                         style: Theme.of(context)
                             .textTheme
                             .titleLarge!
